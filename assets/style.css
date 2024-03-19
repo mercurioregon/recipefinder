@@ -1,0 +1,33 @@
+
+/* TYPICAL MODAL CODE */
+
+/* .modal-btn:hover {
+    background: transparent;
+    color: var(--clr-primary-5)
+
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: orangered;
+    display: grid;
+    place-items: center;
+    transition: var(--transition);
+    /* visibility: hidden;
+    z-index: -10; */
+
+/* }
+
+.open-modal {
+
+    visibility: visible;
+    z-index: 10;
+}
+
+.modal-container{
+    background-color: aquamarine;
+} */ 
