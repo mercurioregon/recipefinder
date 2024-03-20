@@ -1,18 +1,11 @@
-// TYPICAL MODAL CODE
+const openModalButton = document.getElementById("open-modal");
+const modal = document.getElementById("modal");
+const closeModalSpan = document.getElementsByClassName("close-modal");
 
-// const modalBtn = document.querySelector(".modal-btn");
-// const modal = document.querySelector(".modal-overlay");
-// const closeBtn = document.querySelector(".close-btn");
+openModalButton.addEventListener("click", function() {
+    modal.classList.remove("hidden");
+});
 
-// modalBtn.addEventListener("click",function(){
-// modalBtn.classList.add("open-modal")
-
-// }
-
-// )
-// closeBtn.addEventListener("click",function(){
-//         modalBtn.classList.remove("open-modal");
-        
-// }
-
-// )
+closeModalSpan.addEventListener("click", function() {
+    modal.classList.add("hidden");
+});
