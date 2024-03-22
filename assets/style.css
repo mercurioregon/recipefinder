@@ -10,14 +10,16 @@ body {
 }
 
 h1{
-    margin: 60px 560px;
-    margin-bottom: 100px;
-    width: 400px;
-    height: 50px;
-    padding-bottom: 30px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 450px;
     text-align: center;
     background-color: #002626;
-    font-size: 45px;
+    font-size: 55px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #57cc99;
     border-radius: 50px;
@@ -25,44 +27,47 @@ h1{
 }
 
 p {
-    padding-top: 35px;
-    margin: -80px 500px;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100px;
-    width: 530px;
+    position: relative;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    height: 600px;
+    width: 700px;
+    color: #57cc99;
     background-color: #002626;
     text-align: center;
-    color: #57cc99;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    line-height: -10px;
     border-radius: 50px;
-}
 
-.box {
-    margin: -20px 500px;
-    height: 220px;
-    width: 530px;
-    background-color: #002626;
-    border-radius: 50px;
 }
 
 .button1 {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 650;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 90px;
-    width: 150px;
-    margin-top: 90px;
-    margin-left: 195px;
+    position: relative;
+    left: 43vw;
+    bottom: 8vw;
+    height: 130px;
+    width: 280px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 40%;
     color: #002626;
     background-color: #57cc99;
-    border-radius: 70px;
+    border-color: #00ff90;
+    border-width: 10px;
+
 }
 
 .button1:hover {
     cursor: pointer;
-    height: 95px;
-    width: 155px;
+    height: 150px;
+    width: 300px;
     background-color: #00ff90;
 
 }
