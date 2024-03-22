@@ -68,14 +68,19 @@ fetch(url)
         //Make the htmal to store info
 
         const nameHtml = document.createElement("h3")
+        const nameURL = document.createElement("h5")
+        const nameImage = document.createElement("img")
 
+        
         //Put the info into html
-
+        nameImage.setAttribute("src", nameImage)
         nameHtml.textContent = dishName
+        nameURL.textContent = dishURL
+        nameImage.textContent = dishImage
 
         //append the newly created html element
 
-        resultsh2.append(nameHtml)
+        resultsh2.append(nameHtml, nameURL, nameImage)
     }
 
   
