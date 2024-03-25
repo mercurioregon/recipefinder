@@ -1,3 +1,4 @@
+
 body {
     background-image: url("https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/12/food-rainbow-vegetable-fruit-variety-group-healthy-1296x728-header.jpg?w=1155&h=1528");
     background-position: center center;
@@ -47,9 +48,8 @@ p {
 }
 
 .button1 {
-    position: relative;
-    left: 43vw;
-    bottom: 8vw;
+    
+    margin-top: -150px;
     height: 130px;
     width: 280px;
     font-size: 40px;
@@ -71,10 +71,24 @@ p {
     background-color: #00ff90;
 
 }
+
+.btn2 {
+    height: 30%;
+    width: 18%;
+    border-radius: 55px;
+    background-color: #57cc99;
+    border-color: #00ff90;
+    border-width: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
 .hidden {
     display: none;
 }
-
+/*
 .modal {
     position: fixed;
     z-index: 1;
@@ -85,15 +99,92 @@ p {
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
+*/
+.modal-content .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 7% auto;
+    background-color: #002626;
     padding: 20px;
-    border: 1px solid #888;
     width: 80%;
+    height: 350px;
+    border-radius: 50px;
+}
+.tb1 {
+    margin-top: 2%;
+    height: 30%;
+    width: 18%;
+    border-radius: 55px;
+    background-color: #57cc99;
+    border-color: #00ff90;
+    border-width: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
 }
 
+.tb2 {
+    margin-top: 2%;
+    height: 30%;
+    width: 18%;
+    border-radius: 55px;
+    background-color: #57cc99;
+    border-color: #00ff90;
+    border-width: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700; 
+}
+
+.tb3 {
+    margin-top: 2%;
+    height: 30%;
+    width: 18%;
+    border-radius: 55px;
+    background-color: #57cc99;
+    border-color: #00ff90;
+    border-width: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-left: 41%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    background-color: #002626;
+    color: #57cc99;
+    border-radius: 55px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #002626;
+    width: 45%;
+    height: 1000px;
+    margin-left: 27%;
+    color: #57cc99;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 55px;
+}
+.return {
+    display: flex;
+    justify-content: center;
+    background-color: #00ff90;
+}
 .close-modal {
     color: #aaa;
     float: left;

@@ -13,29 +13,40 @@
         </div>
     </header>
 <section class = "row">
+
+=======
     <button id="open-modal">Get Recipes</button>
+
 
     <div>
         <p>Don't know what to make for dinner? <br>
         What's in your fridge?<br>
         What's on your shelf?<br>
          Enter 3 ingredients you have on hand and we'll do the rest!</p>
+        <div>
+            <button class="button1" id="open-modal">Get Recipes</button>
+        </div>
     </div>
       <div class="box">
-    <button id="open-modal" class="button1">Get Recipes</button>
       </div>
     <div id="modal" class="hidden">
         <div class="modal-content">
         <form id="form">
-            <input type="text" id="ingredient1" placeholder="ingredient1" />
-            <input type="text" id="ingredient2" placeholder="ingredient2" />
-            <input type="text" id="ingredient3" placeholder="ingredient3" />
-            <button id="submit">Let's Eat!</button>
+            <div class="container">
+             <input class="tb1" type="text" id="ingredient1" placeholder="ingredient #1" />
+             <input class="tb2" type="text" id="ingredient2" placeholder="ingredient #2" />
+             <input class="tb3" type="text" id="ingredient3" placeholder="ingredient #3" />
+            </div>
+         <button class="btn2" id="submit">Let's Eat!</button>
         </form>
         <span class="close-modal"></span>
         </div>
     </div>
     <div>
+
+        <h2 class="resheader"> Results</h2>
+        <article id="results"></article>
+=======
         <h2 id="results">Results</h2>
     </div>
 </section>
