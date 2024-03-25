@@ -12,6 +12,9 @@
          <h1>Recipe Finder</h1>
         </div>
     </header>
+<section class = "row">
+    <button id="open-modal">Get Recipes</button>
+
     <div>
         <p>Don't know what to make for dinner? <br>
         What's in your fridge?<br>
@@ -24,24 +27,18 @@
     <div id="modal" class="hidden">
         <div class="modal-content">
         <form id="form">
-            <div class="inputfield">
-                <div>
-            <input class="tb1" type="text" id="ingredient1" placeholder="ingredient #1" />
-                </div>
-                <div>
-            <input class="tb2" type="text" id="ingredient2" placeholder="ingredient #2" />
-                </div>
-                <div>
-            <input class="tb3" type="text" id="ingredient3" placeholder="ingredient3" />
-                </div>
-            </div>
-            <button class="btn2" id="submit">Let's Eat!</button>
+            <input type="text" id="ingredient1" placeholder="ingredient1" />
+            <input type="text" id="ingredient2" placeholder="ingredient2" />
+            <input type="text" id="ingredient3" placeholder="ingredient3" />
+            <button id="submit">Let's Eat!</button>
         </form>
         <span class="close-modal"></span>
         </div>
     </div>
-        
-    
+    <div>
+        <h2 id="results">Results</h2>
+    </div>
+</section>
     <script src="./assets/script.js"></script>
 </body>
 </html>
