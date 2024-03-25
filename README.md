@@ -45,6 +45,10 @@ https://developer.mozilla.org/en-US/
 
 https://www.simplilearn.com/
 
+https://www.freecodecamp.org/news
+
+https://www.shecodes.io/
+
 Authors 
 
 Alexandra Austin 
