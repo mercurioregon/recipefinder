@@ -1,10 +1,10 @@
 The Recipe Finder App
 
-This application is designed to find potential meals based on up to 3 ingredients the user has on hand.  The user is first greeted then presented with a Get Recipes button.  The button opens three fields where they can enter up to three ingredients.
+This application is designed to find potential meals based on up to 3 ingredients the user has on hand.  The user is first greeted, then presented with a Get Recipes button.  The button opens three fields where they can enter up to three ingredients.
 
-Using the API's Spoonacular and YouTube, up to three rsults are presented from each source.  Spoonacular displays links to food sites and blogs with relavent recipes.  YouTube does the same with video options from their site.
+Using the API's Spoonacular and YouTube, up to three results are presented from each source.  Spoonacular displays links to food sites and blogs with relevant recipes.  YouTube does the same with video options from their site.
 
-The app works on current version of Window and iOS.
+The app works on current versions of Windows and iOS.
 
 Deployed app URL:
 
