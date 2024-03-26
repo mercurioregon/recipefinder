@@ -8,7 +8,7 @@ The app works on current versions of Windows and iOS.
 
 Deployed app URL:
 
-
+https://mbyford49.github.io/mikesrecipefinder/
 
 Sources:
 
